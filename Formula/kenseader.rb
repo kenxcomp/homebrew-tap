@@ -7,24 +7,24 @@
 class Kenseader < Formula
   desc "High-performance terminal RSS reader with AI-powered summarization"
   homepage "https://github.com/kenxcomp/kenseader"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/kenxcomp/kenseader/releases/download/v#{version}/kenseader-macos-arm64.tar.gz"
-      sha256 "1ca2c48257cb4f386432beb7bc02633702bb7bce4c06fa0a37b1197efcbf83aa"
+      sha256 "2418d8c032c008897f15983164772d0a4ec8c4c39fdbd3e733a87f9dc1c6c800"
     end
     on_intel do
       url "https://github.com/kenxcomp/kenseader/releases/download/v#{version}/kenseader-macos-x86_64.tar.gz"
-      sha256 "4b50052f08fc0283420566113653df3fad38c42136c49cd65fa4e5b030a8788b"
+      sha256 "ed6e8881c48b9e284989dbeadc1ff8c91405782dfd3ae9fd83bc9b27deb02817"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/kenxcomp/kenseader/releases/download/v#{version}/kenseader-linux-x86_64.tar.gz"
-      sha256 "aba564e85ea087b79a4fcd3d2b180ae5d5765cf7085c979e26dc1e04ee7e11ca"
+      sha256 "5615e6f679ef61e37a1e2c484718c7f375d7b91765d1bcabcae2b00dd7899c2b"
     end
   end
 
