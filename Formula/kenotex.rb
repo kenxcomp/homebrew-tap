@@ -1,26 +1,26 @@
 class Kenotex < Formula
   desc "Vim-style TUI note-taking app with smart distribution to Reminders, Calendar, and Notes"
   homepage "https://github.com/kenxcomp/kenotex"
-  version "0.1.0"
+  version "1.0.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/kenxcomp/kenotex/releases/download/v0.1.0/kenotex-aarch64-apple-darwin.tar.gz"
-      sha256 "3a8d65cf798c5658d65544847af3aecdacc5a4671246857976c5926693c9e91f"
+      url "https://github.com/kenxcomp/kenotex/releases/download/v1.0.0/kenotex-aarch64-apple-darwin.tar.gz"
+      sha256 "5d3cb0719eeb736ee1c9fd8f34b0bdb85611d386ce5f8144daebead20a1eb75e"
     elsif Hardware::CPU.intel?
-      url "https://github.com/kenxcomp/kenotex/releases/download/v0.1.0/kenotex-x86_64-apple-darwin.tar.gz"
-      sha256 "acff1347cbbfe45c664b0ce93a6ae557f16ac2838781ba7767ac0400ae667550"
+      url "https://github.com/kenxcomp/kenotex/releases/download/v1.0.0/kenotex-x86_64-apple-darwin.tar.gz"
+      sha256 "1ab480277bc5b6ec581fe839713d2572554ec674fe3f39a6c75fccef73d8b009"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/kenxcomp/kenotex/releases/download/v0.1.0/kenotex-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e2a06dc7393b40e32c2fbe20facd41fbaa95d5af345e96e526faad607176db1e"
+      url "https://github.com/kenxcomp/kenotex/releases/download/v1.0.0/kenotex-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "3206c9510f4d9863ab3a552bec8a207adbc9182256cdea9bc44b795e045bb74e"
     elsif Hardware::CPU.intel?
-      url "https://github.com/kenxcomp/kenotex/releases/download/v0.1.0/kenotex-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d23705cb32cc2c61fd4c78b1693370e1bf803430ea6a6d90d896a5d4d56ef613"
+      url "https://github.com/kenxcomp/kenotex/releases/download/v1.0.0/kenotex-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ea4e3fd17240c683f54659b981778c20f625af1b820f81f8e429c08b9438faec"
     end
   end
 
